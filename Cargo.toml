@@ -61,6 +61,8 @@ build-lib-freebidi   = ["build"]
 build-lib-opencv     = ["build"]
 build-lib-vmaf       = ["build"]
 
+build-lib-rubberband = ["build"]
+
 # encoders/decoders
 build-lib-aacplus          = ["build"]
 build-lib-celt             = ["build"]
