@@ -431,6 +431,7 @@ fn build(sysroot: Option<&str>) -> io::Result<()> {
     enable!(configure, "BUILD_LIB_FRIBIDI", "libfribidi");
     enable!(configure, "BUILD_LIB_OPENCV", "libopencv");
     enable!(configure, "BUILD_LIB_VMAF", "libvmaf");
+    enable!(configure, "BUILD_LIB_RUBBERBAND", "librubberband");
 
     // configure external encoders/decoders
     enable!(configure, "BUILD_LIB_AACPLUS", "libaacplus");

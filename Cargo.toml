@@ -60,6 +60,7 @@ build-lib-freetype   = ["build"]
 build-lib-freebidi   = ["build"]
 build-lib-opencv     = ["build"]
 build-lib-vmaf       = ["build"]
+build-lib-rubberband = ["build"]
 
 # encoders/decoders
 build-lib-aacplus          = ["build"]
